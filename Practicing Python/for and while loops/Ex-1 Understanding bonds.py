@@ -1,4 +1,6 @@
-clientes = ["João", "Maria", "Carlos", "Ana", "Beatriz"]
+# List of Clients
 
-for cliente in clientes:
-    print(cliente)
+clients = ["John", "Mary", "Charles", "Anna", "Beatriz"]
+
+for client in clients:
+    print(client)
