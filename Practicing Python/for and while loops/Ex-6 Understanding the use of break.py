@@ -1,7 +1,13 @@
-books = ["1984", "Dom Casmurro", "O Pequeno Príncipe",
-         "O Hobbit", "Orgulho e Preconceito"]
+# Search for a specific book in the list
 
+books = ["1984", "Dom Casmurro", "The Little Prince",
+         "The Hobbit", "Pride and Prejudice"]
+
+# Iterate through each book in the list
 for book in books:
-    if book == "O Hobbit":
-        print(f"book found {book}")
+    # Check if the current book is "The Hobbit"
+    if book == "The Hobbit":
+        # If found, print a confirmation message
+        print(f"Book found: {book}")
+        # Exit the loop immediately after finding the book
         break

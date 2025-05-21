@@ -7,6 +7,3 @@ for seconds in range(10, 0, -1):
     else:
         # Print a different message for odd numbers
         print(f"The countdown continues: {seconds} seconds remaining.")
-
-    # Decrement the time by 1 in each iteration
-    seconds -= 1
