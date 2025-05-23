@@ -8,7 +8,12 @@ books = [
     {"name": "Pride and Prejudice", "stock": 2}
 ]
 
+# Iterate through each book dictionary in the 'books' list
 for book in books:
+    # Check if the 'stock' value of the current book is 0
     if book["stock"] == 0:
+        # If stock is 0, skip the rest of the current iteration and move to the next book
         continue
-    print(f"book disponible: {book["name"]}")
+    # If stock is not 0 (i.e., it's greater than 0), print the book's name
+    # Corrected: Using single quotes for the dictionary key 'name' inside the f-string
+    print(f"Book available: {book['name']}")
